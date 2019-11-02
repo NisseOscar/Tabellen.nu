@@ -1,0 +1,39 @@
+{
+  "name": "multiplikation",
+  "version": "1.0.0",
+  "description": "Multiplikation website based on flask and Reactjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p --progress --config webpack.config.js",
+    "dev-build": "webpack --progress -d --config webpack.config.js",
+    "watch": "webpack --progress -d --config webpack.config.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NisseOscar/Tabellen.nu.git"
+  },
+  "author": "Oscar Johansson",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^3.2.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "balanced-match": "^1.0.0",
+    "history": "^4.10.1",
+    "react-router-dom": "^5.1.2"
+  },
+  "bugs": {
+    "url": "https://github.com/NisseOscar/Tabellen.nu/issues"
+  },
+  "homepage": "https://github.com/NisseOscar/Tabellen.nu#readme"
+}
