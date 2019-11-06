@@ -1,4 +1,6 @@
 const webpack = require('webpack');
+const resolve = require('path').resolve;
+
 const config = {
         devtool: 'eval-source-map',
  entry: __dirname + '/js/index.jsx',
@@ -18,7 +20,7 @@ const config = {
    exclude: /node_modules/,
    query:{
      presets: ['react','es2015']
-   }
+   },
   },
   {
          test: /\.css$/,

@@ -5,7 +5,7 @@ import Home from './components/Home';
 export default (
     <HashRouter history={hashHistory}>
      <div>
-      <Route path='/home' component={Home} />
+      <Route path='/' component={Home} />
      </div>
     </HashRouter>
 );
