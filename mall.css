@@ -1,0 +1,101 @@
+body {
+  padding-top: 180px;
+  text-align: center;
+  font-family: monaco, monospace;
+  background-size: cover;
+}
+h1, h2 {
+  display: inline-block;
+  background: #fff;
+}
+h1 {
+  font-size: 40px
+}
+h2 {
+  font-size: 20px;
+}
+input {
+ width: 70px;
+ height: 40px;
+ border: none;
+ border-bottom: 3px solid rgb(100, 250, 100);
+ font-size:40px;
+ font-family: monaco, monospace;
+ text-align:center;
+ outline: none;
+}
+
+
+.c1{
+  width: 130px;
+  height: 80px;
+  position:relative;
+  left:70px;
+  float: left;
+
+}
+.c2{
+  width: 50%;
+  height: 80px;
+  border: 5px solid red;
+  position:relative;
+  left: 25%;
+  text-align:center;
+  content:center;
+}
+.startbutton{
+  width: 50%;
+  height: 80px;
+  border: 5px solid red;
+  position:relative;
+  left: 25%;
+  text-align:center;
+  content:center;
+  background: rgb(100, 250, 100);
+}
+
+#myprogress {
+  width: 50%;
+  background-color: white;
+  left: 25%;
+  position: relative;
+}
+
+#mybar {
+  width: 100%;
+  height: 5px;
+  background-color: rgb(100, 250, 100);
+}
+
+
+
+</style>
+<body>
+  <div class='c2'>
+    <div class='c1'>
+      <h1 id='first_number'>
+        10
+      </h1>
+      <h1 id='aritchmatics'>
+        &times
+      </h1>
+      <h1 id='second_number'>
+        10
+      </h1>
+    </div>
+
+    <h1>
+    =
+    </h1>
+    <input maxlength="3"></input>
+
+  </div>
+  <div id="myProgress">
+      <div id="myBar"></div>
+    </div>
+  <div class="startbutton">
+    <h1>Start</h1>
+  </div>
+
+
+</body>

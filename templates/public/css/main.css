@@ -17,7 +17,7 @@ h1 {
   font-size: 120px
 }
 h2 {
-  font-size: 24px;
+  font-size: 36px;
 }
 input {
  width: 240px;
@@ -41,7 +41,7 @@ input {
 }
 .c2{
   width: 700px;
-  height: 160px;
+  height: 240px;
   text-align:center;
   margin: auto;
 }
@@ -49,10 +49,27 @@ input {
   width: 700px;
   height: 80px;
   text-align:center;
-  background-color:rgb(50, 250, 100);
+  background-color:rgb(100, 250, 100);
   border: none;
   color: white;
+  position: relative;
+  border: 20px white;
 }
 .tblBtn{
+  width: 140px;
+  height: 80px;
+  text-align:center;
+  border: white 2px;
+  color: black;
+}
+.Btnrow:after {
+  clear: both;
+  content: "";
+  display: table;
+}
 
+@keyframes correct {
+  0%   {background-color:white;}
+  50% {background-color:red;}
+  100%   {background-color:white;}
 }
